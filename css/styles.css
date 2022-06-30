@@ -109,8 +109,6 @@ p {
 .site-nav li:not(:last-child) {
   margin-right: 50px;
 }
-.phone-icon {
-}
 
 /* Мейл-телефон */
 .phone a {
@@ -137,7 +135,9 @@ p {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  margin: 0 auto;
   max-width: 1600px;
+  height: 600px;
 
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/header-foto-min.jpg);
@@ -328,7 +328,6 @@ p {
 .icon-clients-list {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
 }
 .icon-clients-item:not(:last-child) {
   margin-right: 30px;
@@ -359,7 +358,7 @@ p {
 }
 .footer-content {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 .logo-footer {
   color: #ffffff;
@@ -389,7 +388,7 @@ p {
   color: var(--accent-color);
 }
 .contacts {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.376);
 }
 .contacts:hover,
 .contacts:focus {
@@ -403,6 +402,8 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   margin-bottom: 20px;
+
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .social-media-footer {
   display: flex;
